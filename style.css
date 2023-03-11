@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(268deg, #020024, #090979, #00d4ff);
+  background-size: 600% 600%;
+  -webkit-animation: backgroundAnimate 17s ease infinite;
+  animation: backgroundAnimate 17s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@-webkit-keyframes backgroundAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+@keyframes backgroundAnimate {
+  0%{background-position:0% 51%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 51%}
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
